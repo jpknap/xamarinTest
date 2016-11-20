@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:xamarintest"
+             x:Class="xamarintest.MainPage">
+
+  <Button Text="Send Message Web Api"
+         VerticalOptions="Center"
+         HorizontalOptions="Center"
+         BackgroundColor="Red"
+         Command="{Binding enviarMsj}"
+          />
+
+</ContentPage>
